@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRINHO 2025</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        body {
+            background-color: #CFE0BC; /* Cor mais clara de verde */
+            color: #63783D; /* Verde mais escuro para o texto geral */
+        }
+
+        .cabecalho {
+            background-color: #7FA653; /* Tom de verde médio */
+            color: #99CD85; /* Verde claro para o texto do cabeçalho */
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        .navbar {
+            background-color: #63783D !important; /* Verde mais escuro para a navbar */
+            animation: slideInDown 0.5s ease-out 0.5s backwards;
+        }
+
+        .navbar-nav .nav-link {
+            color: #CFE0BC !important; /* Verde claro para os links da navbar */
+        }
+
+        .col > div:first-child {
+            animation: slideInLeft 1s ease-out;
+        }
+
+        .img-agro {
+            animation: zoomIn 1s ease-out 0.5s backwards;
+        }
+
+        .card {
+            background-color: #CFE0BC; /* Cor mais clara de verde para o fundo dos cards */
+            border-color: #7FA653; /* Tom de verde médio para a borda dos cards */
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title {
+            color: #63783D; /* Verde mais escuro para o título do card */
+        }
+
+        .btn-primary {
+            background-color: #7FA653; /* Tom de verde médio para o botão primário */
+            border-color: #7FA653;
+            color: #CFE0BC; /* Verde claro para o texto do botão primário */
+        }
+
+        .btn-primary:hover {
+            background-color: #63783D;
+            border-color: #63783D;
+        }
+
+        .carousel {
+            animation: fadeInUp 1s ease-out 1s backwards;
+        }
+
+        .footer {
+            background-color: #000000; /* Tom de verde bem escuro para o footer (adaptado do seu palette) */
+            color: #000000; /* Verde claro para o texto do footer */
+            animation: slideInUp 0.5s ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="cabecalho">
+        <h1 class="animate__animated animate__fadeIn">AGRINHO 2025</h1>
+    
+
+    <nav class="navbar navbar-expand-lg bg-success animate__animated animate__slideInDown">
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white animate__animated animate__fadeInLeft" aria-current="page"
+                            href="index.html" style="color: #000000 !important;">Página Inicial |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white animate__animated animate__fadeInLeft animate__delay-0-2s"
+                            href="energia.html" style="color: #000000 !important;">Energia Rural |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white animate__animated animate__fadeInLeft animate__delay-0-4s"
+                            href="agua.html" style="color: #000000 !important;">Acessibilidade a Água |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white animate__animated animate__fadeInLeft animate__delay-0-6s"
+                            href="producao.html" style="color: #000000 !important;">Produção</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="background-color: #b3dfb186;">
+        <div class="row pt-5">
+            <div class="col-md-6 animate__animated animate__slideInLeft" style="color: #000000;">
+                <div>
+                    <h2>O que podemos falar sobre a zona rural?</h2>
+                    <p class="alinha">O Essencial da Terra: Agricultura e Zonas Rurais no Brasil
+                        a agricultura brasileira é vital, impulsionando a economia como grande produtora e exportadora
+                        global. Em 2022, a produção de grãos bateu recorde com 271,9 milhões de toneladas, com destaque para
+                        soja e milho. O agronegócio representou quase metade das exportações em 2024, gerando milhões de
+                        empregos. A produtividade cresceu significativamente nas últimas décadas, e o setor movimenta
+                        trilhões de reais. A agricultura familiar, essencial para o mercado interno, emprega a maioria da
+                        mão de obra rural.
+                    </p>
+                    <p class="alinha">As zonas rurais, que cobrem a maior parte do Brasil, são marcadas pela baixa
+                        densidade populacional e pela forte ligação com a natureza e a produção primária. Apesar de sua
+                        importância econômica, social e cultural, enfrentam desafios ambientais e de infraestrutura. A
+                        valorização do campo e a conexão entre campo e cidade são cruciais para um desenvolvimento
+                        sustentável, reconhecendo o valor do trabalho rural e incentivando o consumo consciente.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center animate__animated animate__zoomIn animate__delay-0-5s">
+                <img class="img-agro br-3 img-fluid" src="./assets/image/agro.png"
+                    alt="Imagem representativa de plantação.">
+            </div>
+        </div>
+        <div class="row pt-5">
+            <h3 class="text-center pb-3 animate__animated animate__fadeInUp" style="color: #7FA653;">Saiba um pouco mais sobre cada área.</h3>
+            <div class="col-lg-4 col-md-6 mb-4 animate__animated animate__fadeInUp animate__delay-0-2s">
+                <div class="card h-100">
+                    <img src="./assets/image/energia sus (1).png" class="img-card card-img-top img-fluid" alt="Acessibilidade a água">
+                    <div class="card-body">
+                        <h5 class="card-title">Acessibilidade a água</h5>
+                        <p class="card-text" style="color: #63783D;">Explore a importância da água nas zonas rurais e os desafios para garantir o acesso a esse recurso vital.</p>
+                        <a href="agua.html" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 animate__animated animate__fadeInUp animate__delay-0-4s">
+                <div class="card h-100">
+                    <img src="./assets/image/energia sus.png" class="img-card card-img-top img-fluid" alt="Energia rural">
+                    <div class="card-body">
+                        <h5 class="card-title">Energia rural</h5>
+                        <p class="card-text" style="color: #63783D;">Descubra as fontes de energia utilizadas no campo e a crescente busca por soluções sustentáveis.</p>
+                        <a href="energia.html" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 animate__animated animate__fadeInUp animate__delay-0-6s">
+                <div class="card h-100">
+                    <img src="./assets/image/agro.png" class="img-card card-img-top img-fluid" alt="Produção e industrialização">
+                    <div class="card-body">
+                        <h5 class="card-title">Produção e industrialização</h5>
+                        <p class="card-text" style="color: #63783D;">Aprenda sobre os processos de produção agrícola e a sua relação com a industrialização de alimentos.</p>
+                        <a href="producao.html" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExample" class="carousel slide pt-4 pb-3 animate__animated animate__fadeInUp animate__delay-1s">
+            <div class="carousel-inner" style="background-color: #63783D;">
+                <div class="carousel-item active">
+                    <img src="./assets/image/Energy (1).gif" class="img-slide d-block w-100" alt="Animação de energia 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image/Energy.gif" class=" img-slide d-block w-100" alt="Animação de energia 2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="footer animate__animated animate__slideInUp">
+        <p>Todos os direitos reservados para agrinho 2025 </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
