@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Água - Projeto</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #e6f4ea; /* verde claro */
+      color: #1b4332; /* verde escuro para boa leitura */
+    }
+    h1, .card-title {
+      color: #2d6a4f;
+    }
+    .carousel img {
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .card {
+      background-color: #d8f3dc;
+      border: none;
+    }
+    .btn-success {
+      background-color: #40916c;
+      border-color: #40916c;
+    }
+    .btn-success:hover {
+      background-color: #2d6a4f;
+      border-color: #2d6a4f;
+    }
+    .btn-secondary {
+      background-color: #74c69d;
+      border-color: #74c69d;
+    }
+    .btn-secondary:hover {
+      background-color: #52b788;
+      border-color: #52b788;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menu de navegação -->
+  <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Página Inicial</a></li>
+          <li class="nav-item"><a class="nav-link" href="energia.html">Energia Rural</a></li>
+          <li class="nav-item"><a class="nav-link active" href="agua.html">Acessibilidade à Água</a></li>
+          <li class="nav-item"><a class="nav-link" href="producao.html">Produção</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Importância da Água</h1>
+
+    <!-- Carrossel de Imagens -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/imagens/6.jpg" class="d-block w-100" alt="Imagem 1 sobre água" />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/imagens/7.jpg" class="d-block w-100" alt="Imagem 2 sobre água" />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/imagens/10.jpg" class="d-block w-100" alt="Imagem 3 sobre água" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próxima</span>
+      </button>
+    </div>
+
+    <!-- Conteúdo de Texto -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Água</h5>
+        <p class="card-text">
+          A água é essencial para a vida e desempenha um papel crucial em diversos aspectos da existência, desde a saúde humana até a sustentabilidade ambiental e econômica. É um recurso natural fundamental para a sobrevivência de todos os seres vivos, além de ser utilizada em diversas atividades humanas.
+        </p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Como podemos preservar?</h5>
+        <p class="card-text">
+          Para preservar a água, é fundamental adotar hábitos que reduzam o desperdício e aumentem a eficiência no seu uso. Isso inclui medidas como fechar a torneira ao escovar os dentes, tomar banhos mais curtos, consertar vazamentos, e reutilizar a água da máquina de lavar. Além disso, é importante evitar a poluição da água, não jogando lixo em rios, lagos ou praias. Uso consciente em casa:
+          Reduzir o tempo de banho: Tentar tomar banhos mais rápidos, desligando o chuveiro para se ensaboar e reabrindo apenas para o enxágue. 
+          Fechar a torneira ao escovar os dentes: Uma torneira aberta por alguns minutos pode desperdiçar uma quantidade significativa de água. 
+          Lavar a louça de forma eficiente: Evitar deixar a torneira aberta por muito tempo e, se possível, utilizar balde ao invés de torneira para lavar a louça. 
+          Limpar a calçada com vassoura: Em vez de usar mangueira, que desperdiça água, optar por uma vassoura para limpar calçadas e outras áreas externas. 
+          Reutilizar a água: A água da máquina de lavar roupas pode ser reaproveitada para limpar quintais ou regar plantas, diz a PREFEITURA MUNICIPAL DE JOÃO NEIVA - ES. 
+          Verificar e consertar vazamentos: Pequenos vazamentos podem desperdiçar grandes quantidades de água ao longo do tempo. 
+          Instalar dispositivos economizadores: Dispositivos economizadores de água em torneiras e chuveiros podem reduzir o consumo sem comprometer a eficiência. 
+          Uso consciente no jardim:
+          Regar as plantas à noite: Evitar a evaporação da água durante o dia, regando as plantas no período noturno. 
+          Utilizar regador ou sistema de irrigação eficiente: Ao invés de mangueira, optar por um regador ou sistema de irrigação que direcione a água para a raiz das plantas, diz a tratamentodeagua.com.br. 
+          Plantas nativas e adaptadas: Escolher plantas nativas e adaptadas ao clima local, que demandam menos água para se manterem saudáveis. 
+          Outras medidas:
+          Não jogar lixo em rios, lagos ou praias: A poluição da água é um problema sério que afeta a qualidade da água e a vida marinha. 
+          Aumentar a conscientização: Educar e conscientizar sobre a importância da água e a necessidade de usá-la com sabedoria. 
+        </p>
+      </div>
+    </div>
+
+    <!-- Botões -->
+    <div class="text-center mb-5">
+      <a href="index.html" class="btn btn-secondary me-2">Voltar para a tela inicial</a>
+      <a href="#" class="btn btn-success">Saiba mais</a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
